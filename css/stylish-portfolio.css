@@ -155,15 +155,18 @@ i.service-icon:hover {
 /* Callout */
 
 .callout {
-  color: #ffffff;
-  display: table;
-  height: 400px;
-  width: 100%;
-  background: url(../img/section-two.JPG) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	color: #ffffff;
+	display: table;
+	height: 400px;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(../img/section-two.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 /* Portfolio */
